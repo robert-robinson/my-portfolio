@@ -11,13 +11,14 @@ function App() {
           
           Robert Robinson Presents...
         </p>
-        <img src={LIlogo} className="Linkedin-logo" alt="Linkedin" />
+        
         <a
           className="App-link"
           href=""
           target="https://www.linkedin.com/in/robert-robinson-0846a5170/"
           rel="noopener noreferrer"
         >
+          <img src={LIlogo} className="Linkedin-logo" alt="Linkedin" />
           Linkedin
         </a>
       </header>
